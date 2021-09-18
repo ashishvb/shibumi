@@ -1,7 +1,7 @@
 {
   "name": "shibumi",
   "description": "A React Native component library to speed up development of ecommerce apps built with native base.",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
