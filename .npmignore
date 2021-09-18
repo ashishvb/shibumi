@@ -1,0 +1,13 @@
+__tests__
+.vscode
+android
+ios
+src
+storybook
+.buckconfig
+.editorconfig
+.eslintrc.js
+.prettierrc.js
+app.json
+index.js
+App.tsx
