@@ -1,7 +1,7 @@
 {
   "name": "shibumi",
   "description": "A React Native component library to speed up development of ecommerce apps built with native base.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "files": [
@@ -80,5 +80,8 @@
     "url": "https://github.com/ashishvb/shibumi/issues"
   },
   "homepage": "https://github.com/ashishvb/shibumi#readme",
-  "dependencies": {}
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-native": "^0.65.1"
+  }
 }
