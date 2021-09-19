@@ -1,6 +1,7 @@
 import React from 'react';
 import {Flex, Box, Text, Image} from 'native-base';
 import {TouchableOpacity} from 'react-native';
+import {SwiperFlatList} from 'react-native-swiper-flatlist';
 
 type CategoryModel = {
   _key: string | number;
@@ -67,10 +68,10 @@ const CategoryBlock = (props: CategoryBlockProps) => {
         direction="column"
         width="100%"
         bg="white">
-        <Flex height="60" direction="row" align="center" justify="center">
+        <Flex height="60px" direction="row" align="center" justify="center">
           <Image
             width="100%"
-            height={60}
+            height="60px"
             resizeMode={'cover'}
             source={{
               uri: thumbnail,
