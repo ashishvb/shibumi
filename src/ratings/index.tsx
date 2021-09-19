@@ -148,7 +148,7 @@ const ProgressBar = (props: ProgressBarProps) => {
   );
 };
 
-const StarIcon = (props: {
+export const StarIcon = (props: {
   /**
    * Type of star full, half or default empty
    */
