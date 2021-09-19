@@ -1,3 +1,3 @@
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset', {runtime: 'automatic'}],
+  presets: ['module:metro-react-native-babel-preset'],
 };
