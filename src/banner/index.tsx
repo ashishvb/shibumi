@@ -1,8 +1,6 @@
-import React, {FC} from 'react';
-import {Dimensions} from 'react-native';
-import {Text, Image, Box, View} from 'native-base';
+import React from 'react';
+import {Image, Box} from 'native-base';
 import Carousel from './carousel';
-import {SwiperFlatList} from 'react-native-swiper-flatlist';
 
 interface BannerProps {
   /**
